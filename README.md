@@ -8,24 +8,29 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
 
 1. Clone the repository:
 ```sh
-   git clone https://github.com/brenobernardes/customers.git
+git clone https://github.com/brenobernardes/store.git
 ```
 
 2. Navigate to the project directory:
 ```sh
-   cd store
+cd store
 ```
 
-3. Set up the database:
+3. Install the required gems:
 ```sh
-   rails db:migrate
+bundle install
+```
+
+4. Set up the database:
+```sh
+rails db:migrate
 ```
 
 ## Usage
 
 1. Start the Rails server:
 ```sh
-   rails server
+rails server
 ```
 
 2. Open your web browser and navigate to http://localhost:3000 to access the application.:
