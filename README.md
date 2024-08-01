@@ -13,15 +13,10 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
 
 2. Navigate to the project directory:
 ```sh
-   cd customers
+   cd store
 ```
 
-3. Install the required gems:
-```sh
-   bundle install
-```
-
-4. Set up the database:
+3. Set up the database:
 ```sh
    rails db:migrate
 ```
