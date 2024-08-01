@@ -1,24 +1,36 @@
-# README
+# CRUD Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
+This project is a simple CRUD (Create, Read, Update, Delete) application built using Ruby on Rails. The functionality and structure of the application are based on the sample documentation provided by Ruby on Rails.
 
-* Ruby version
+## Installation
 
-* System dependencies
+1. Clone the repository:
+```sh
+   git clone https://github.com/brenobernardes/customers.git
+```
 
-* Configuration
+2. Navigate to the project directory:
+```sh
+   cd customers
+```
 
-* Database creation
+3. Install the required gems:
+```sh
+   bundle install
+```
 
-* Database initialization
+4. Set up the database:
+```sh
+   rails db:migrate
+```
 
-* How to run the test suite
+## Usage
 
-* Services (job queues, cache servers, search engines, etc.)
+1. Start the Rails server:
+```sh
+   rails server
+```
 
-* Deployment instructions
-
-* ...
+2. Open your web browser and navigate to http://localhost:3000 to access the application.:
