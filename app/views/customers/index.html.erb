@@ -1,21 +1,9 @@
-<h1>Customers Page</h1>
+<h1>Welcome to Customers Page</h1>
 
-<table>
-	<tr>
-	    <th>First Name</th>
-    	<th>Last Name</th>
-	    <th>Email</th>
-	    <th>Actions</th>
-	</tr>
+<a href="/customers">
+	<button>View Customers</button>
+</a>
 
-	<% @customers.each do |customer| %>
-		<tr>
-	    	<td><%= customer.first_name %></td>
-	    	<td><%= customer.last_name %></td>
-	    	<td><%= customer.email %></td>
-	    	<td>
-	    		<%= link_to "View", customer %>
-	    	</td>    	
-	 	</tr>
-	<% end %>
-</table>
+<a href="/customers/new">
+	<button>Create Customer</button>
+</a>
